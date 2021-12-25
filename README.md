@@ -6,7 +6,7 @@ This project available for pure blood only not allowed for muggles. :mage_man:	:
 - Just kidding please feel free to use it or clone it like you want. :hearts:	
 </br>
 
-- [The api I use](https://hp-api.herokuapp.com/)
+- The [api](https://hp-api.herokuapp.com/)  I use
 </br>
 
 - Screenshot:
