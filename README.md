@@ -30,5 +30,5 @@ npm run build
 ```
 Credits
 -------
-- [Linkedin Account](https://www.somar-kesen.com/)  </br>
+- [Linkedin Account](https://www.linkedin.com/in/somarkn99/)  </br>
 - [My website](https://www.somar-kesen.com/)
