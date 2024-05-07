@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`http://hp-api.herokuapp.com/api/characters?${query}`)
+      const result = await axios(`https://hp-api.onrender.com/api/characters`)
 
       setItems(result.data)
       setIsLoading(false)
