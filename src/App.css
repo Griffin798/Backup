@@ -137,3 +137,10 @@
       object-fit: contain;
     }
   }
+  .input-wrapper{
+    background-color: white;
+    width:10px;
+    border-radius: 10px;
+    height: 2.5rem;
+    box-shadow: 0px 0px 0px #ddd;
+  }
