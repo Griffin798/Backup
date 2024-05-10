@@ -14,4 +14,4 @@ const CharacterGrid = ({items, isLoading}) => {
     )
 }
 
-export default CharacterGrid
+export default CharacterGrid;
