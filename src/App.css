@@ -50,6 +50,7 @@ header img {
 
 .search {
   height: 100px;
+  color: #0f0b83;
 }
 
 input[type='text'] {
@@ -143,4 +144,9 @@ input[type='text'] {
     height: 300px;
     object-fit: contain;
   }
+
+}
+
+.highlight {
+  border: 2px solid #007bff;
 }

@@ -1,10 +1,10 @@
-import React, {useState , useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import './App.css';
 import Header from './components/UI/Header';
 import CharacterGrid from './components/charchters/CharacterGrid';
 import Search from './components/UI/Search';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 const App = () => {
   const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -18,13 +18,22 @@ const App = () => {
       setIsLoading(false)
     }
     fetchItems()
-  }, [query]) 
+  }, [query])
 
-  return    <div className="container"> 
-    <Header/>
-    <Search getQuery={(q) => setQuery(q) } />
-    <CharacterGrid isLoading={isLoading} items= {items} />
-   </div>
-}
+  return (
+    <Router>
+      <div className="container">
+        <Header />
+
+
+        <Search getQuery={(q) => setQuery(q)} />
+        <CharacterGrid items={items} isLoading={isLoading} searchQuery={query} />
+
+
+
+      </div>
+    </Router>
+  );
+};
 
 export default App;
